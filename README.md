@@ -1,1 +1,1 @@
-- pnpm dlx shadcn@2.9.2 add
+- pnpm dlx shadcn@2.9.2 add [component]
