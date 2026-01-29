@@ -627,10 +627,11 @@ function SidebarMenuSkeleton({
       <Skeleton
         className="h-4 max-w-(--skeleton-width) flex-1"
         data-sidebar="menu-skeleton-text"
+        // Cast to any to avoid csstype version mismatch between packages
         style={
           {
             "--skeleton-width": width,
-          } as React.CSSProperties
+          } as any
         }
       />
     </div>
